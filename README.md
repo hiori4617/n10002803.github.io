@@ -8,4 +8,3 @@ Example of how to use the project.
 ### Authors
 -Hiori Nakazato
 -Prince Mecwan
--Rajbir Singh
