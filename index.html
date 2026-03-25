@@ -3,6 +3,7 @@
 <head>
   <title>HoloChat</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -11,21 +12,36 @@
   <h1>HoloChat</h1>
   <nav>
     <a href="#">Home</a>
-    <a href="#">Start Chat</a>
+    
     <a href="#">Safety</a>
     <a href="#">About</a>
     <a href="#">Login</a>
   </nav>
 </header>
 
+<div class="sidebar">
+  <ul>
+      <li><i class="fa fa-home"></i></li>
+      <li><i class="fa fa-comments"></i></li>
+      <li><i class="fa fa-user"></i></li>
+      <li><i class="fa fa-cog"></i></li>
+    </ul>
+</div>
+
 <main>
   <h2>Talk to strangers instantly</h2>
-  <button>Start Chat</button>
+  <button class="start">Start Chat</button>
+  <div class="video-box">Video Area</div>
+<div class="controls">
+  <button class="next">Next</button>
+  <button class="stop">Stop</button>
+</div>
 </main>
 
 <footer>
   <p>© 2026 HoloChat</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
